@@ -3,7 +3,8 @@ VirtEx Payment Magento Extension
 
 Magento Virtex Payment Gateway Module. Allows Magento website to accept payments in Bitcoin currency. Mostly functionnal needs to be tested (a lot) more. Currently tested on Magento 1.7 and 1.8. Its very hard to test the module since the VirtEx API is very unstable at the moment (changes are made without notifying developers and documentation isn't updated).
 
-This extension requires a merchant account with VirtEx http://www.cavirtex.com/
+* This extension requires a merchant account with VirtEx http://www.cavirtex.com/
+* This extension will only work with Magento stores using Canadian Dollars as base currency.
 
 How does it work?
 -----------------
@@ -53,10 +54,11 @@ Instructions:
 3. Login to your backend.
 4. Reset the cache to load the extension. (System->Cache Management)
 5. Go to system configuration (System->Configuration)
-6. Locate the payment module under Payment Methods->VirExt Merchant API
-7. Enable the module
-8. Configure your API keys
+6. If its not already the case, set your "Base Currency" to Canadian Dollars under the Currency Setup tab.
+7. Locate the "VirExt Merchant API" payment module in the Payment Methods tab.
+8. Configure your merchant API key and secret key.
 9. Login to your VirtEx merchant admin and set the IPN url to <em>https://www.domain.com<strong>/virtex/api/ipn</strong></em><br/>(use http://... if you don't have an SSL setup)
+
 
 
 
