@@ -63,4 +63,4 @@ Instructions:
 Known Issues
 ------------
 - The VirEx API seems to have some rounding issues with very low amounts of BTC (less than 0.0001) which impacts payments made through the API.
-- It seems like the API's IPN validation always fails at the moment.
+- It seems like the API's IPN validation always fails at the moment (meaning IPN is not used at the moment even tough it is implemented)
