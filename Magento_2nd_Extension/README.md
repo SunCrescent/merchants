@@ -1,5 +1,5 @@
-VirtEx Bitcoin Payment API Magento Extension
-============================================
+VirtEx Payment Magento Extension
+================================
 
 Magento Virtex Payment Gateway Module. Allows Magento website to accept payments in Bitcoin currency. Mostly functionnal needs to be tested (a lot) more. Currently tested on Magento 1.7 and 1.8. Its very hard to test the module since the VirtEx API is very unstable at the moment (changes are made without notifying developers and documentation isn't updated).
 
